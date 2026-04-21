@@ -12,5 +12,7 @@ elif y == "*":
     result = float(x) * float(z)
 elif y == "/":
     result = float(x) / float(z)
+else:
+    raise ValueError("Invalid operator")
 
 print(f"{result:.1f}")
