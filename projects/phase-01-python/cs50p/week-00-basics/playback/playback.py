@@ -1,6 +1,5 @@
 # Asks for the user's name and greets them with spaces replaced by ellipses.
 
-name = input("What's your name? ")
-name = name.replace(" ", "...")
+text = input()
 
-print(f"Hello, {name}")
+print(text.replace(" ", "..."))

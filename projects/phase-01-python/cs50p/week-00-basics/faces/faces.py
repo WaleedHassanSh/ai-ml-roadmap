@@ -1,18 +1,17 @@
 # Asks for the user's name and greets them, replacing :) with 🙂 and :( with 🙁.
 
 
-def convert(x):
-    x = x.replace(":)", "🙂")
-    x = x.replace(":(", "🙁")
+def convert(text):
+    text = text.replace(":)", "🙂")
+    text = text.replace(":(", "🙁")
 
-    return x
+    return text
 
 
 def main():
-    name = input("What's your name? ")
-    name = convert(name)
+    text = input()
 
-    print(f"Hello, {name}!")
+    print(convert(text))
 
 
 main()
