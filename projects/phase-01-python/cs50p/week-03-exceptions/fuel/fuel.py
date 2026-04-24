@@ -15,10 +15,10 @@ while True:
         percent = round((x / y) * 100)
 
         if percent <= 1:
-            print("F")
+            print("E")
 
         elif percent >= 99:
-            print("E")
+            print("F")
 
         else:
             print(f"{percent}%")
