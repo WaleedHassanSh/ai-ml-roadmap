@@ -1,29 +1,40 @@
 # Prompt the user for a fraction, convert it to a percentage, and display the result. If the percentage is less than or equal to 1%, display "E". If the percentage is greater than or equal to 99%, display "F". Otherwise, display the percentage followed by a percent sign. The program should continue to prompt the user until a valid fraction is entered.
 
-while True:
-    try:
-        fraction = input("Fraction: ")
+def main():
 
-        x, y = fraction.split("/")
+    fraction = input("Fraction: ")
 
-        x = int(x)
-        y = int(y)
+    percentage = convert(fraction)
 
-        if x > y or y <= 0 or x < 0:
-            continue
+    print(gauge(percentage))
 
-        percent = round((x / y) * 100)
 
-        if percent <= 1:
-            print("E")
+def convert(fraction):
+    x, y = fraction.split("/")
 
-        elif percent >= 99:
-            print("F")
+    x = int(x)
+    y = int(y)
 
-        else:
-            print(f"{percent}%")
+    if y == 0:
+        raise ZeroDivisionError
 
-        break
+    elif x < 0 or y < 1 or x > y:
+        raise ValueError
 
-    except (ValueError, ZeroDivisionError):
-        continue
+    else:
+        return round(x / y * 100)
+
+
+def gauge(percentage):
+    if percentage <= 1:
+        return "E"
+
+    elif percentage >= 99:
+        return "F"
+
+    else:
+        return f"{str(percentage)}%"
+
+
+if __name__ == "__main__":
+    main()

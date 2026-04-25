@@ -4,34 +4,33 @@
 # 3. Numbers cannot be used in the middle of a plate; they must come at the end. For example, "AAA222" is valid, but "AA2AAA" is not valid.
 # 4. The first number used cannot be a "0".
 
-
 def main():
     plate = input("Plate: ")
 
     if is_valid(plate):
         print("Valid")
+
     else:
         print("Invalid")
 
 
 def is_valid(s):
-    if len(s) < 2 or len(s) > 6:
-        return False
+    if 1 < len(s) < 7 and s[0:2].isalpha() and s.isalnum():
+        for i in range(len(s)):
+            if s[i].isdigit():
+                if s[i] == "0":
+                    return False
 
-    if not s[0:2].isalpha():
-        return False
+                if s[i:].isdigit():
+                    return True
 
-    if not s.isalnum():
+                else:
+                    return False
+    else:
         return False
-
-    for i in range(len(s)):
-        if s[i].isdigit():
-            if s[i] == "0":
-                return False
-            if not s[i:].isdigit():
-                return False
 
     return True
 
 
-main()
+if __name__ == "__main__":
+    main()
