@@ -1,3 +1,5 @@
+# A program that accepts a date in either MM/DD/YYYY or Month D, YYYY format and outputs the date in YYYY-MM-DD format. If the user inputs an invalid date, the program should prompt the user to input a date again until they input a valid date. The program should not accept any dates that are not valid (e.g., 13/40/2020 or February 30, 2020).
+
 months = [
     "January",
     "February",

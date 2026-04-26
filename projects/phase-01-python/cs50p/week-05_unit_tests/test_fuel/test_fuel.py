@@ -1,7 +1,6 @@
 # A series of unit tests for the fuel module, testing both the convert and gauge functions.
 
 import pytest
-
 from fuel import convert, gauge
 
 
@@ -9,7 +8,7 @@ def test_convert_valid_fractions():
     assert convert("1/4") == 25
     assert convert("1/2") == 50
     assert convert("3/4") == 75
-    assert convert("4/4") =
+    assert convert("4/4") == 100
     assert convert("0/4") == 0
 
 
