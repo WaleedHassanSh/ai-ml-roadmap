@@ -17,7 +17,7 @@ while True:
 
 try:
     response = requests.get(
-        "https://rest.coincap.io/v3/assets/bitcoin?apiKey=79d4ec4da6169e7f5678b4dac457e339cdd78cd6c059d57b84fdb0cf0a7b0b58"
+        "https://rest.coincap.io/v3/assets/bitcoin?apiKey=YOUR_API_KEY_HERE"
     )
     response.raise_for_status()
 
