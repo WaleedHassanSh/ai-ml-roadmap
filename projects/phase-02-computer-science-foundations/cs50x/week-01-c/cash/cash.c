@@ -1,3 +1,5 @@
+// A program that calculates the minimum number of coins required to give a user change.
+
 #include <cs50.h>
 #include <stdio.h>
 
@@ -82,4 +84,4 @@ int calculate_pennies(int cents)
     }
 
     return pennies;
-}   
+}

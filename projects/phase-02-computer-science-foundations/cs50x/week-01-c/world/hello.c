@@ -1,3 +1,5 @@
+// A simple program that prints "hello, world" to the terminal.
+
 #include <stdio.h>
 
 int main(void)

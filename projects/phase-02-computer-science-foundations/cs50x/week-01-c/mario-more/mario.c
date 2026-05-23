@@ -1,3 +1,5 @@
+// A program that prints a Mario - style half - pyramid of a specified height, per the below.
+
 #include <cs50.h>
 #include <stdio.h>
 
