@@ -1,0 +1,11 @@
+sort1 uses: Bubble Sort
+
+How do you know?: Because in best case (sorted array), it is the fastest.
+
+sort2 uses: Merge Sort
+
+How do you know?: Because in sorted array (best case), it is same as worst case but its complexity is less than selection sort.
+
+sort3 uses: Selection Sort
+
+How do you know?: Because in sorted array (best case), it is same as worst case, so it should be slower.
