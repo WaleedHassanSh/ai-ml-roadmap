@@ -16,7 +16,7 @@ def test_init():
         Jar(-1)
 
     with pytest.raises(ValueError):
-        Jar("12")
+        Jar(12)
 
 
 def test_str():

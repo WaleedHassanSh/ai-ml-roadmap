@@ -2,13 +2,14 @@
 
 import sys
 from datetime import date
+from typing import Any, cast
 
 import inflect
 
 p = inflect.engine()
 
 
-def parse_birthdate(dob):
+def parse_birthdate(dob: str) -> date:
     try:
         year, month, day = dob.split("-")
         return date(int(year), int(month), int(day))
@@ -16,16 +17,20 @@ def parse_birthdate(dob):
         raise ValueError("Invalid Format")
 
 
-def minutes_since_birth(birth_date, today=date.today()):
+def minutes_since_birth(birth_date: date, today: date | None = None) -> int:
+    if today is None:
+        today = date.today()
+
     difference = today - birth_date
     return difference.days * 24 * 60
 
 
-def words(minutes):
-    return p.number_to_words(minutes, andword="")
+def words(minutes: int) -> str:
+    engine = cast(Any, p)
+    return cast(str, engine.number_to_words(minutes, andword=""))
 
 
-def main():
+def main() -> None:
     dob = input("Date of Birth: ")
 
     try:
@@ -34,7 +39,9 @@ def main():
         sys.exit("Invalid Format")
 
     minutes = minutes_since_birth(birth_date)
-    print(f"{words(minutes).capitalize()} minutes")
+    minute_words = words(minutes)
+
+    print(f"{minute_words.capitalize()} minutes")
 
 
 if __name__ == "__main__":
