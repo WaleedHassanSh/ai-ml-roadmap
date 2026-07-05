@@ -7,3 +7,6 @@ __pycache__/
 .env
 data/raw/
 models/
+
+# Local database files
+*.db

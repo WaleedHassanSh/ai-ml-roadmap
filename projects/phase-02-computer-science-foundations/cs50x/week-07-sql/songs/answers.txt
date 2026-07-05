@@ -1,0 +1,3 @@
+We can chracterize their audio era by checking the types of songs they listen.
+This would represent incorrectly because it is only 1 years of data.
+We can add weights on how much a user listened to 1 songs, and on which occasions and things like this.
