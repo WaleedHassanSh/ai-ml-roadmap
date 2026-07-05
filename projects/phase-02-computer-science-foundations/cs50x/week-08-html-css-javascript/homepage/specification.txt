@@ -1,0 +1,11 @@
+HTML tags used:
+nav, div, ul, li, a, main, section, h1, h2, p, button, footer
+
+CSS properties used:
+font-family, background-color, color, padding, margin, display, text-align, border-radius, box-shadow, font-size
+
+Bootstrap usage:
+I used Bootstrap containers, grid rows/columns, cards, and buttons to organize and style the homepage and project cards.
+
+JavaScript usage:
+I used JavaScript on the homepage so that clicking the "Show Reminder" button changes the study reminder text.
