@@ -1,0 +1,5 @@
+CREATE TABLE students(
+    id INTEGER PRIMARY KEY AUTOINCREMENT,
+    name TEXT NOT NULL,
+    marks REAL NOT NULL
+);
