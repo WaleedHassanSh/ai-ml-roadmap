@@ -10,6 +10,7 @@ while True:
         continue
 
 for i in range(1, height + 1):
-    height -= 1
-    print(" " * height, end="")
+    spaces = height - i
+
+    print(" " * spaces, end="")
     print("#" * i)

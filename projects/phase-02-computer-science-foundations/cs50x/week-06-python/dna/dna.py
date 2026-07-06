@@ -26,19 +26,23 @@ def main():
     str_counts = [longest_match(dna, i) for i in headers[1:]]
 
     # TODO: Check database for matching profiles
+    match_found = False
+
     for data in database:
         found = True
 
         for position, current_str in enumerate(headers[1:]):
             if int(data[current_str]) != str_counts[position]:
                 found = False
+                break
 
         if found:
             print(data["name"])
+            match_found = True
             break
 
-        if not found:
-            print("No match")
+    if not match_found:
+        print("No match")
 
     return
 

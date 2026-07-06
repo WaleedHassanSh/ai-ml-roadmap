@@ -2,7 +2,7 @@
 
 while True:
     try:
-        change = round(float(input("Change: "))) * 100
+        change = round(float(input("Change: ")) * 100)
         if change >= 0:
             break
 
