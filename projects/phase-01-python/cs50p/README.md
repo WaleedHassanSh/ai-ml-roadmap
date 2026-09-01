@@ -97,7 +97,7 @@ This folder contains exercises using Python libraries, modules, random values, c
 Folder:
 
 ```text
-week-05_unit_tests/
+week-05-unit-tests/
 ```
 
 This folder contains exercises focused on writing and running tests for Python functions.
