@@ -10,3 +10,19 @@ models/
 
 # Local database files
 *.db
+
+# Testing
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Python tooling
+.ruff_cache/
+.mypy_cache/
+
+# Local application state
+flask_session/
+
+# Experiment outputs
+runs/
+checkpoints/

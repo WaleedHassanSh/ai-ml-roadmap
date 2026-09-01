@@ -23,32 +23,29 @@ This project helps me practice:
 ## Project Folder
 
 ```text
-02-student-records-sql-app/
+03-student-records-sql-app/
 ```
 
 ## Folder Structure
 
 ```text
-02-student-records-sql-app/
+03-student-records-sql-app/
 ├── README.md
 ├── app.py
 ├── schema.sql
 ├── seed.sql
 ├── requirements.txt
-└── tests/
-    └── test_app.py
 ```
 
 ## File Descriptions
 
-| File | Purpose |
-|---|---|
-| `README.md` | Explains the project, setup, usage, and learning goals |
-| `app.py` | Main Python application |
-| `schema.sql` | Defines the database structure |
-| `seed.sql` | Adds sample student records |
-| `requirements.txt` | Lists Python dependencies, if any |
-| `tests/test_app.py` | Contains basic tests for project functions |
+| File               | Purpose                                                |
+| ------------------ | ------------------------------------------------------ |
+| `README.md`        | Explains the project, setup, usage, and learning goals |
+| `app.py`           | Main Python application                                |
+| `schema.sql`       | Defines the database structure                         |
+| `seed.sql`         | Adds sample student records                            |
+| `requirements.txt` | Lists Python dependencies, if any                      |
 
 ## Database Design
 
@@ -137,7 +134,7 @@ By completing this mini-project, I should be able to:
 This project belongs to:
 
 ```text
-projects/phase-02-computer-science-foundations/mini-projects/02-student-records-sql-app/
+projects/phase-02-computer-science-foundations/mini-projects/03-student-records-sql-app/
 ```
 
 It should stay inside `mini-projects/` because it is an independent practice project, not official CS50x coursework.

@@ -33,7 +33,7 @@ cs50p/
 ├── week-02-loops/
 ├── week-03-exceptions/
 ├── week-04-libraries/
-├── week-05_unit_tests/
+├── week-05-unit-tests/
 ├── week-06-file-io/
 ├── week-07-regex/
 ├── week-08-oop/

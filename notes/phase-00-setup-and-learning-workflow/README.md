@@ -1,48 +1,58 @@
-# Notes
+# Phase 0: Setup and Learning Workflow
 
-This folder contains my study notes for the AI/ML roadmap.
+This folder contains notes for Phase 0 of my AI/ML roadmap.
 
 ## Purpose
 
-The purpose of this folder is to keep organized notes for each phase of my learning journey.
+The goal of Phase 0 is to set up a clean learning workflow before starting serious Python and AI/ML study.
 
-These notes help me:
+This phase focuses on basic development workflow, especially using the terminal and organizing files properly.
 
-- Review important concepts
-- Save useful commands
-- Track phase-wise learning
-- Build a strong foundation before moving to advanced AI/ML topics
+## Notes Included
 
-## Current Notes
+### Terminal Cheatsheet
 
-### Phase 0: Setup and Learning Workflow
-
-Folder:
-
-```text
-phase-00-setup-and-learning-workflow/
-```
-
-This folder contains notes related to setup workflow and terminal basics.
-
-Current file:
+File:
 
 ```text
 terminal-cheatsheet.md
 ```
 
+This file contains quick references for basic terminal commands.
+
+It covers:
+
+- Navigation commands
+- File commands
+- Pipes and redirection
+- Basic Git commands
+
+## Topics Covered
+
+### Navigation
+
+Commands for checking the current location, listing files, moving between folders, and creating folders.
+
+### Files
+
+Commands for creating, copying, moving, renaming, and deleting files.
+
+### Pipes and Redirection
+
+Commands for sending command output to files, appending output, and connecting commands together.
+
+### Git
+
+Basic Git commands for initializing a repository, checking status, staging files, committing, pushing, pulling, and cloning repositories.
+
 ## Folder Structure
 
 ```text
-notes/
+phase-00-setup-and-learning-workflow/
 ├── README.md
-└── phase-00-setup-and-learning-workflow/
-    ├── README.md
-    └── terminal-cheatsheet.md
+└── terminal-cheatsheet.md
 ```
 
-## Roadmap Context
+## Learning Goal
 
-These notes are part of my AI/ML roadmap.
-
-The goal is to build strong fundamentals step by step before moving into Python, core computer science, mathematics, data analysis, machine learning, deep learning, and AI systems.
+By the end of this phase, I should be comfortable with basic terminal usage, file organization, and simple Git workflow before continuing deeper into Python and AI/ML learning.
