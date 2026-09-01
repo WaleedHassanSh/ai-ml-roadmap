@@ -72,7 +72,8 @@ I used separate HTML templates for the homepage and add task page to keep the st
 To run the project, first make sure the required packages are installed:
 
 ```bash
-pip install flask cs50
+pip install -r requirements.txt
+sqlite3 studyflow.db < schema.sql
 ```
 
 Then run the Flask application from the project folder:

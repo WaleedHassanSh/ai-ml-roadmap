@@ -57,8 +57,7 @@ Example table structure:
 CREATE TABLE students (
     id INTEGER PRIMARY KEY AUTOINCREMENT,
     name TEXT NOT NULL,
-    email TEXT UNIQUE NOT NULL,
-    marks INTEGER NOT NULL
+    marks REAL NOT NULL
 );
 ```
 
@@ -69,11 +68,11 @@ Sample data can be stored in `seed.sql`.
 Example:
 
 ```sql
-INSERT INTO students (name, email, marks)
+INSERT INTO students (name, marks)
 VALUES
-('Ali Khan', 'ali@example.com', 85),
-('Sara Ahmed', 'sara@example.com', 92),
-('Usman Tariq', 'usman@example.com', 76);
+('Ali Khan', 85),
+('Sara Ahmed', 92),
+('Usman Tariq', 76);
 ```
 
 ## Features
@@ -82,7 +81,7 @@ The app should allow the user to:
 
 1. Add a new student
 2. View all students
-3. Search student by name or email
+3. Search student by name
 4. Update student marks
 5. Delete a student
 6. Exit the program

@@ -6,24 +6,31 @@ It is intentionally a **learning repository**, so it contains course work, exerc
 
 For selected phases, I will also choose one strong project and maintain it separately as a polished standalone GitHub repository.
 
+## Quick Navigation
+
+- [Detailed Roadmap](ROADMAP.md)
+- [Projects](projects/)
+- [Notes](notes/)
+- [Python Practice](python/)
+
 ## Roadmap
 
 The learning path progresses from programming and computer science foundations toward machine learning, deep learning, modern AI systems, and research.
 
-| Phase | Focus | Status |
-|---|---|---|
-| Phase 00 | Setup and Learning Workflow | Complete |
-| Phase 01 | Python Programming | Complete |
-| Phase 02 | Computer Science Foundations | Complete |
-| Phase 03 | Mathematics Foundations | Complete |
-| Phase 04 | Algorithms, Databases, and Systems | In Progress |
-| Phase 05 | Data Stack and Exploratory Data Analysis | Planned |
-| Phase 06 | Classical Machine Learning | Planned |
-| Phase 07 | Deep Learning with PyTorch | Planned |
-| Phase 08 | NLP, Computer Vision, and Transformers | Planned |
-| Phase 09 | LLMs, Generative AI, RAG, and Evaluation | Planned |
-| Phase 10 | MLOps, Deployment, and Cloud | Planned |
-| Phase 11 | Research, Specialization, and Capstone Work | Planned |
+| Phase    | Focus                                       | Status      |
+| -------- | ------------------------------------------- | ----------- |
+| Phase 00 | Setup and Learning Workflow                 | Complete    |
+| Phase 01 | Python Programming                          | Complete    |
+| Phase 02 | Computer Science Foundations                | Complete    |
+| Phase 03 | Mathematics Foundations                     | Complete    |
+| Phase 04 | Algorithms, Databases, and Systems          | In Progress |
+| Phase 05 | Data Stack and Exploratory Data Analysis    | Planned     |
+| Phase 06 | Classical Machine Learning                  | Planned     |
+| Phase 07 | Deep Learning with PyTorch                  | Planned     |
+| Phase 08 | NLP, Computer Vision, and Transformers      | Planned     |
+| Phase 09 | LLMs, Generative AI, RAG, and Evaluation    | Planned     |
+| Phase 10 | MLOps, Deployment, and Cloud                | Planned     |
+| Phase 11 | Research, Specialization, and Capstone Work | Planned     |
 
 See [ROADMAP.md](ROADMAP.md) for the detailed roadmap, learning goals, resources, projects, and phase-completion criteria.
 

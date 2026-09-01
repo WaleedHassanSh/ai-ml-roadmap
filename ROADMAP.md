@@ -172,6 +172,8 @@ Understand the mathematical ideas used in optimization, regression, dimensionali
 
 Strengthen the computer science and software-engineering foundations that become important when building larger AI/ML systems.
 
+Phase 04 is a CS depth track. Algorithms and practical SQL are important foundations, while database internals, operating systems, networking, and distributed systems are complementary skills and are not strict prerequisites for beginning later AI/ML phases.
+
 ## Learning Order
 
 ```text

@@ -1,5 +1,5 @@
-INSERT INTO students (name, email, marks)
+INSERT INTO students (name, marks)
 VALUES
-('Ali Khan', 'ali@example.com', 85),
-('Sara Ahmed', 'sara@example.com', 92),
-('Usman Tariq', 'usman@example.com', 76);
+('Ali Khan', 85),
+('Sara Ahmed', 92),
+('Usman Tariq', 76);
