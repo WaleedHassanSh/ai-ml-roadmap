@@ -91,6 +91,7 @@ The app should allow the user to:
 Run these commands inside the project folder:
 
 ```bash
+pip install -r requirements.txt
 sqlite3 students.db < schema.sql
 sqlite3 students.db < seed.sql
 ```

@@ -32,7 +32,7 @@ The learning path progresses from programming and computer science foundations t
 | Phase 10 | MLOps, Deployment, and Cloud                | Planned     |
 | Phase 11 | Research, Specialization, and Capstone Work | Planned     |
 
-See [ROADMAP.md](ROADMAP.md) for the detailed roadmap, learning goals, resources, projects, and phase-completion criteria.
+See [ROADMAP.md](ROADMAP.md) for the detailed roadmap, topics, learning goals, practical work, project requirements, and phase-completion criteria.
 
 ## Repository Structure
 
