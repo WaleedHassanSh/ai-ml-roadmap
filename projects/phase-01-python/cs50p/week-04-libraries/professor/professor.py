@@ -12,34 +12,24 @@ def main():
         y = generate_integer(level)
 
         answer = x + y
-        choice = 0
 
-        while True:
+        for _ in range(3):
             try:
-                guess = int(input(f"{x} + {y} = "))
+                user_answer = int(input(f"{x} + {y} = "))
 
-            except ValueError:
-                if choice == 2:
+                if user_answer == answer:
+                    score += 1
                     break
 
-                choice += 1
-                print("EEE")
-                continue
+            except ValueError:
+                pass
 
-            if guess == answer:
-                score += 1
-                break
+            print("EEE")
 
-            elif choice == 2:
-                print(f"{x} + {y} = {answer}")
-                break
+        else:
+            print(f"{x} + {y} = {answer}")
 
-            else:
-                choice += 1
-                print("EEE")
-                continue
-
-    print(score)
+    print(f"Score: {score}")
 
 
 def get_level():
